@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header{
+  width: 100%;
+  background-color: #EBEBEB;
+  div{
+    width: 1226px;
+    margin: 0 auto;
+  }
+}
+
+
+.nav{
+  width: 100%;
+  background-color: #333333;
+  .nav_one{
+    width: 1226px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #AAA69E;
+
+    li{
+      float: left;
+      padding: 0 9px;
+      border-right: 1px solid #585555;
+    }
+
+    .left{
+      float: left;
+      padding: 13px 0;
+
+    }
+    .right{
+      float: right;
+      padding: 13px 0;
+    }
+  }
+}
+
+
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.log{
+  width: 1226px;
+  height: 55px;
+  line-height: 55px;
+  margin: 0 auto;
+  margin-top: 22px;
+  .right{
+    float: right;
+    input:nth-child(1){
+      padding:10px 0 10px 40px;
+      width: 205px;
+      font-size: 12px;
+      border-color:#E0E0E0 ;
+    }
+  }
+
+  .log_one{
+    float: left;
+    div:nth-child(1){
+      float: left;
+    }
+    div:nth-child(2){
+      float: left;
+      margin-left: 80px;
+    }
+  }
+  ul{
+    float: left;
+    margin-left: 80px;
+    li{
+      float: left;
+      margin-right: 20px;
+    }
+  }
+
+}
+
+
+.lun{
+  width: 1226px;
+  margin: 0 auto;
+  margin-top: 23px;
+  height: 460px;
+  background-color: #ccc;
+  >div{
+    width:100%;
+    height: 460px;
+    position: relative;
+    .swiper-container{
+      position: relative;
+      .swiper-button-prev{
+        position: absolute;
+        left: 250px;
+      }
+    }
+    ul{
+      width: 204px;
+      background: rgba(0,0,0,0.3);
+      padding-left: 30px;
+      padding-top:20px ;
+      padding-bottom: 20px;
+      font-size: 12px;
+      color: white;
+      position: absolute;
+      top:0;
+      left: 0;
+      z-index: 1;
+      li{
+        padding: 14px 0;
+      }
+    }
+  }
+}
+
+
+.lis{
+    width: 1226px;
+    height: 170px;
+    background-color: #ccc;
+    margin: 0 auto;
+    margin-top:14px ;
+  >li:nth-child(1){
+    width: 234px;
+    background-color:#5F5750;
+    ul{
+      li{
+        float: left;
+        text-align: center;
+        font-size: 12px;
+        width: 78px;
+        height: 42px;
+        padding: 21px 0;
+        color:#B9C5C2 ;
+      }
+    }
+  }
+  >li:nth-child(4){
+    margin-right: 0;
+  }
+  >li{
+    float: left;
+    width: 316px;
+    height: 100%;
+    margin-right: 14px;
+    background-color: black;
+  }
+}
+
+.start{
+  width: 1226px;
+  margin: 0 auto;
+}
+
+
+
+
